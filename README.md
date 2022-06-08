@@ -21,7 +21,7 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 ## The page view
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./Develop/assets/screenshot.png)
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./module-1-challenge/assets/screenshot.png)
 
 
 ## Link to deployed application
