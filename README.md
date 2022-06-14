@@ -25,7 +25,7 @@ THEN I find a concise, descriptive title
 
 
 ## Link to deployed application
-https://onaygizem.github.io/module-1-challenge/
+https://onaygizem.github.io/module-2-challenge/
 
 
 
