@@ -1,37 +1,32 @@
-# 03 JavaScript: Password Generator
+# 04 Web APIs: Code Quiz
 
-## Your Task
+##  Task
 
-Module 3 is to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
-
-The password can include special characters.
+The task is to create a coding test from scratch where the user has to take a test under a count down. Each wrong question takes away 10 seconds from the countdown timer. At the end, the user can save their score and retrieve the score in the future.
 
 ## User Story
 
 ```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
+AS A coding boot camp student
+I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
+SO THAT I can gauge my progress compared to my peers
 ```
 
 ## Acceptance Criteria
 
 ```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and my score
 ```
+
 ## Link to deployed application
-https://onaygizem.github.io/module-3-challenge/
+https://onaygizem.github.io/module-4-challenge/
