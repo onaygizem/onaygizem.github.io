@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="headerTitle">Weather Dashboard</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-auto">
+                <h3>Search for a city</h3>
+                <input class="citySearchInput">
+                <button class="searchButton">Search</button>
+
+                <h3>Previous Searches</h3>
+                <ul class="list-group previousSearch" style="width: 300px; border: 2px solid #494142;">
+                    <li class="list-group-item">
+                        <a href="#"></a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#"></a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#"></a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#"></a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#"></a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col col-lg-2">
+                <div class="currentCity">
+                    <h1 class="cityName">
+                        <img id="weatherLogo"/> City Name
+                    </h1>
+                    <p class="cityTemp">Temp</p>
+                    <p class="cityWind">Wind</p>
+                    <p class="cityHumid">Humidity</p>
+                    <p class="cityUV">UV index <span class = "cityUVColor"></span></p>
+                </div>
+                <div class="currentCityDetails">
+                    <h2>5 Day forecast</h2>
+                    <div class="row currentCityDaysRows">
+                        <div class="col currentCityDays">
+                            <h5 class="detailedDate">Date</h5>
+                            <p class="detailedLogo"></p>
+                            <p class="detailedTemp">Temp</p>
+                            <p class="detailedHum">Humidity</p>
+                        </div>
+                        <div class="col currentCityDays">
+                            <h5 class="detailedDate">Date</h5>
+                            <p class="detailedLogo"></p>
+                            <p class="detailedTemp">Temp</p>
+                            <p class="detailedHum">Humidity</p>
+                        </div>
+                        <div class="col currentCityDays">
+                            <h5 class="detailedDate">Date</h5>
+                            <p class="detailedLogo"></p>
+                            <p class="detailedTemp">Temp</p>
+                            <p class="detailedHum">Humidity</p>
+                        </div>
+                        <div class="col currentCityDays">
+                            <h5 class="detailedDate">Date</h5>
+                            <p class="detailedLogo"></p>
+                            <p class="detailedTemp">Temp</p>
+                            <p class="detailedHum">Humidity</p>
+                        </div>
+                        <div class="col currentCityDays">
+                            <h5 class="detailedDate">Date</h5>
+                            <p class="detailedLogo"></p>
+                            <p class="detailedTemp">Temp</p>
+                            <p class="detailedHum">Humidity</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

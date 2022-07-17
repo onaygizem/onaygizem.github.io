@@ -1,0 +1,65 @@
+/* Element selectors */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e7e7e7;
+}
+
+
+/* Class selector */
+.headerTitle{
+    background-color: #b5d4f8;
+    padding: 20px;
+}
+
+.citySearchInput {
+    height: 40px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    margin: 7px;
+}
+
+.currentCity {
+    border: 2px solid #494142;
+    background-color: white;
+}
+
+.currentCityDays {
+    border: 2px solid #494142;
+    background-color: white;
+}
+
+.cityUVColor{
+    padding: 7px;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 1400px;
+    }
+}
